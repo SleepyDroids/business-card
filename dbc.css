@@ -1,0 +1,58 @@
+/*
+Jacqueline here! Learning how to code via Scrimba!
+Thank you for your lessons Per! <3
+*/
+
+body {
+    margin: 20px;
+}
+
+@keyframes text {
+    from {}
+    to { color: #52b788; }
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url("./fonts/SpaceGrotesk.ttf") format('truetype');
+    font-display: swap;
+}
+
+img:hover {
+    filter: grayscale(1);
+}
+
+.card-img {
+    width: 150px;
+    border: 3px solid #52b788;
+    border-radius: 25px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#name, #location {
+    animation-name: text;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.card {
+    display: flex;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    justify-content: space-around;
+    text-align: center;
+    
+    color: #d3d3d3;
+    background: #b7e4c7;
+    background-image: url("./images/snow.webp");
+    background-size: cover;
+    border-top: 6px solid #52b788; 
+    border-bottom: 6px solid #52b788;
+    font-family: SpaceGrotesk;
+
+    text-shadow: 0px 0px 5px #ffffff;
+}
